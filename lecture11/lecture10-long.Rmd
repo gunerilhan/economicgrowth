@@ -1,0 +1,545 @@
+---
+title: "EC569 Economic Growth <br>  Income Inequality <br> Lecture 10"
+subtitle: "<html><div style='float:left'></div><hr color='##EB811B' size=1px width=796px></html>"
+author: '&#x130;lhan G&#252;ner'
+date: "`r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    css: [default, rladies, metropolis-fonts] 
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+library(knitr)
+opts_chunk$set(
+  fig.align="center", ##fig.width=6, fig.height=4.5, 
+  ## out.width="748px", ##out.length="520.75px",
+  dpi=300, ##fig.path='Figs/',
+  cache=T##, echo=F, warning=F, message=F
+  )
+```
+
+##Introduction
+
+<br>
+
+* So far, we have focused on average level of income in a country
+
+* In this lecture, we will investigate how income is divided among the residents of a country (distribution of income)
+
+* In 2005, average income in India ($2,2557) was 21% larger than that of Pakistan ($2,112)
+
+* Fraction of the population living on income of less than $1.25 per day
+
+ * 41.6% in India
+ 
+ * 22.5% in Pakistan
+
+* Distribution of income matters as well as average income.
+
+
+
+
+---
+
+##Overview
+
+<br>
+
+<br>
+
+* Income inequality: the facts
+
+ * Top income shares vs Gini coefficient
+ 
+ * Market income vs disposable income
+ 
+ * Within country inequality vs global inequality
+
+* Sources of income inequality
+
+* Effect of income inequality on economic growth
+
+
+
+---
+##Distribution of Income
+
+<br>
+
+<br>
+
+<br>
+* Divide population into several equal sized groups and measure how much each group earns
+
+* Divide population into different categories of income and look at the fraction of the population in each
+
+
+---
+##Household Income in the United States by Quintiles, 2009
+
+<center>
+<img src="https://gunerilhan.github.io/img/lecture10/table1.png" width="90%"/>
+</center>
+Table from: Weil (2013)
+
+In 2009,
+
+* mean income $67,979
+
+* median income $49,777 
+
+* Distribution is skewed, it has very long right tail
+
+
+
+
+
+---
+##Income Distribution in the US, 2009
+
+<br>
+
+<center>
+<img src="https://gunerilhan.github.io/img/lecture10/figure1.png" width="90%"/>
+</center>
+
+Graph from: Weil (2013)
+
+---
+##Income Distribution in the UK, 2017
+
+
+<center>
+<img src="https://gunerilhan.github.io/img/lecture10/uk-income-dist.png" width="70%"/>
+</center>
+
+Source: ONS, 2017 data
+
+
+---
+
+## Measuring Inequality ##
+
+&nbsp;
+
+&nbsp;
+
+
+* Top income shares
+
+ * Share of total income going to top earners
+
+* Gini coefficient
+
+ * Derived from the Lorenz curve
+
+
+---
+##Measuring Inequality, Lorenz Curve
+
+<br>
+
+* Arrange households from lowest to highest income
+
+* Calculate the fraction of the total income earned by the poorest 1 percent
+
+* Then, fraction of the total income earned by the poorest 2 percent
+
+* So on
+
+* Graph these data 
+
+* The more bowed out is the Lorenz Curve, the more unequally income is distributed.
+
+
+
+
+---
+##The Lorenz Curve for the United States, 2009
+
+
+<center>
+<img src="https://gunerilhan.github.io/img/lecture10/figure2.png" width="50%"/>
+</center>
+
+Graph from: Weil (2013)
+
+---
+##Measuring Inequality, Gini coefficient
+<br>
+
+* Gini coefficient: the area between the Lorenz Curve and the line of perfect equality divided by the total area under the line of perfect equality
+
+* Perfect equality: Gini coefficient = 0 (or 0%)
+
+* Perfect inequality: Gini coefficient = 1 (or 100%)
+
+* The closer is the coefficient to zero, the more income is distributed equally in a country
+
+* Gini coefficient in the US: .468 (or 46.8%)
+
+* Gini coefficient in the UK: .34 (or 34 %) (in 2014, World Bank)
+
+
+
+
+
+
+
+---
+class: middle
+
+<center>
+<img src="https://ourworldindata.org/uploads/2013/12/Inequality-UK-over-700-years.png" width="100%"/>
+</center>
+
+---
+## Market income inequality versus disposable income inequality ##
+
+* Market income:
+
+ * Labor income
+ 
+ * Capital income
+ 
+* Disposable income (income that reaches people's pockets):
+
+ * Labor income
+ 
+ * Capital income
+ 
+ * Transfers (e.g. social security)
+ 
+ * Minus taxes
+
+
+---
+class: middle
+## Market income vs disposable income inequality ##  
+<center>
+<img src="https://promarket.org/wp-content/uploads/2018/12/brankofigure1.jpg" width="70%"/>
+</center>
+
+Source: [Milanovic (2018), ](https://promarket.org/the-inequality-paradox-rising-inequalities-nationally-diminishing-inequality-worldwide/)Calculated from Luxembourg Income Study (LIS) data
+---
+class: middle
+
+<center>
+<img src="https://gunerilhan.github.io/img/lecture10/inequality-before-and-after-taxes-and-transfers-Thewissen-et-al-data.png" width="100%"/>
+</center>
+
+---
+class: middle
+#### Use this tool to look at income inequality in other countries ####
+
+<center>
+<iframe src="https://ourworldindata.org/grapher/inequality-before-and-after-taxes-and-transfers-Thewissen-et-al-data?time=1979..2013" style="width: 100%; height: 500px; border: 0px none;"></iframe>
+</center>
+
+
+---
+class: middle
+<center>
+<img src="https://gunerilhan.github.io/img/lecture10/real-disposable-household-income-indexed.png" width="90%"/>
+</center>
+---
+## Within country inequality versus global income inequality ##
+
+* So far we focused on with country inequality
+
+ * Evidence that inequlity increases in many countries over the last decaded.
+ 
+ * Disposable income inequality measured with Gini coeffienct increased in 15 out of 17 OECD countries (with available data) (Milanovic (2018), [OECD (2015)](http://www.oecd.org/social/in-it-together-why-less-inequality-benefits-all-9789264235120-en.htm)) 
+ 
+* Global income inequality
+
+ * Income inequality among all the people in the world
+ 
+ * Declined in the last decades
+ 
+ * Gini in 2003: .687, Gini in 2013: .649 ( Tomáš Hellebrandt and Paolo Mauro (2015))
+
+---
+class: middle
+
+<center>
+<img src="https://gunerilhan.github.io/img/lecture10/Global-inequality-in-1800-1975-and-2015.png" width="50%"/>
+</center>
+
+---
+class: middle
+
+<center>
+<img src="https://gunerilhan.github.io/img/lecture10/4-World-Income-Distribution-2003-to-2035-growth-rates.png" width="100%"/>
+</center>
+---
+class: middle, center
+
+## Income inequality and <br> economic growth ##
+
+---
+##The Kuznets Curve
+
+Simon Kuzents' hypothesis (1955): as a country develops, inequality should first rise and then fall
+
+
+<center>
+<img src="https://gunerilhan.github.io/img/lecture10/figure3.png" width="60%"/>
+</center>
+
+Graphic from: Weil (2013)
+
+---
+##The Kuznets Curve in England and Wales, 1823--1915
+
+
+<center>
+<img src="https://gunerilhan.github.io/img/lecture10/figure4.png" width="60%"/>
+</center>
+
+Graph from: Weil (2013)
+
+---
+##Income per capita versus Inequality
+
+<center>
+<img src="https://gunerilhan.github.io/img/lecture10/figure5.png" width="90%"/>
+</center>
+
+Graph from: Weil (2013)
+
+---
+##Kuznets Curve
+
+<br>
+
+<br>
+
+
+* The data in Figure 13.5 does not provide strong evidence of the inverted U-shape relationship between development and income inequality
+
+* Some researchers (Barro for example) argue that once you control for other factors that affect inequality, the inverted U-shape is observed.
+
+
+
+
+---
+##Sources of Income Inequality
+<br>
+
+Why is there income inequality?
+
+Characteristics that effect income
+
+* ownership of physical capital: inheritance, investment
+
+* human capital: health, education
+
+* occupation specific skills/talent: leadership, artistic skills, language skills etc.
+
+* geography/location: where you live
+
+* matching of characteristics with economic environment
+
+
+
+---
+##Education as the Source of Income Inequality
+
+* lower return to education reduces income inequality
+
+ * the earning difference between the poor and the rich decreases 
+
+* narrower distribution of years of education reduces income inequality
+
+ * the fraction of middle income workers increases
+
+
+
+
+---
+##Explaining the Kuznets Curve
+
+* Technological progress raises the returns to skills (education, entrepreneurial ability) 
+
+ * marginal product of human capital increases 
+ * skilled workers earn more
+ * income inequality increases
+
+* Technological progress raises return to physical capital
+
+ * Technologies are often embedded in new capital goods
+ * Skills and capital are found at the higher end of distribution
+ * Inequality rises
+
+* Resource reallocation gradually takes place
+
+ * unskilled workers increasingly value education given the widened wage gap
+ * workers flow into fast-growing regions/industries
+ * As technological progress slows down, return to physical capital decreases
+ * income inequality decreases
+
+
+
+
+
+
+
+
+
+
+---
+##Income Inequality in the United States: 1947-2009
+
+
+<center>
+<img src="https://gunerilhan.github.io/img/lecture10/figure10.png" width="90%"/>
+</center>
+
+Graph from: Weil (2013)
+
+---
+##Explaining the Recent Rise in Income Inequality
+
+* Technological progress
+
+ * rise of information technology: return on education should rise
+ * Skill-biased technological change
+
+* Increases in international trade
+
+ * demand for internationally scarce resources: return on education should rise
+ * owners of internationally scarce resources benefit
+
+* Superstar dynamic 
+
+ * people with the highest levels of some qualities earn much more than people with only slightly lower qualifications
+ * sports, entertainment
+
+* Government policies (deregulation, tax policy, etc)
+
+
+
+
+
+---
+class: middle
+
+<center>
+<img src="https://ourworldindata.org/uploads/2018/07/Top-Incomes.png" width="100%"/>
+</center>
+
+
+
+
+
+---
+##Effect of Income Inequality on Economic Growth
+Inequality leads to high capital accumulation
+
+* rich people have a higher saving rate than poor people
+* the greater proportion of income earned by the rich the higher the national savings rate
+* greater income inequality leads to higher income per capita via physical capital accumulation
+
+If a country is open to flows international capital flows
+
+* Investment does not need to be financed by domestic savings
+* Effects of inequality on physical capital accumulation will be diminished
+
+
+
+---
+##Saving Rates by Income Quintile, 2003
+
+<center>
+<img src="https://gunerilhan.github.io/img/lecture10/table2.png" width="90%"/>
+</center>
+
+Table from: Weil (2013)
+
+---
+##Effect of Income Inequality on Economic Growth, cont'd ##
+Inequality leads to low human capital accumulation
+
+* Human capital is installed in a specific person
+
+ * marginal return decreases as human capital increases
+
+* Physical capital can be rented to other people
+
+ * marginal return does not depend on a person's investment
+
+
+
+
+---
+##Marginal Products of Physical and Human Capital
+
+<center>
+<img src="https://gunerilhan.github.io/img/lecture10/figure11.png" width="60%"/>
+</center>
+
+Graphic from: Weil (2013)
+
+---
+##Effects of Inequality on Human Capital Accumulation
+
+* Poor people invest mainly in human education
+* After one point, the rich stop investing in human capital
+* Gini coefficient for physical capital in the US: .78
+* Gini coefficient for years of education: .14
+* If income is taken from the poor and given to rich
+
+ * The poor decreases human capital
+ * The rich do not invest in human capital
+ * Total human capital decreases
+ * Income decreases
+
+* If a country is open to flows international capital flows
+
+ * effects of inequality on human capital remain
+
+
+
+
+---
+##Income Inequality, Income Redistribution, and Efficiency
+Redistributionary taxes leads to distortion
+
+ * progressive tax charges higher tax rates on the more productive worker 
+ * income tax discourages labor: inefficiency (dead-weight loss) increases 
+ * greater income inequality leads to lower income per capita
+
+
+There are counter arguments about this point.
+
+
+
+---
+##Empirical Evidence
+
+<br>
+
+Available data is not sufficient to estimate the individual effects of inequality on growth
+
+* no evidence that countries with higher income inequality has higher capital stock accumulation
+
+* in countries where income inequality is higher the level of education is lower (matches predictions of this chapter)
+
+* no evidence that higher income inequality leads to more redistributive taxation
+
+
+---
+class: top, left
+
+##Questions about essay##
+
+Visit:
+
+https://gunerilhan.github.io/img/essay/essay.html#1
+

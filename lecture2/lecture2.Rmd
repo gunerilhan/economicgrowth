@@ -1,0 +1,691 @@
+---
+title: "EC569 Economic Growth <br>  The Solow Growth Model <br> Lecture 2"
+subtitle: "<html><div style='float:left'></div><hr color='##EB811B' size=1px width=796px></html>"
+author: '&#x130;lhan G&#252;ner'
+date: "`r Sys.Date()`"
+header-includes:
+   - \usepackage{tikz}
+output:
+  xaringan::moon_reader:
+    css: [default, rladies, metropolis-fonts] 
+    lib_dir: libs
+    nature:
+      ratio: '16:9'
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+library(knitr)
+opts_chunk$set(
+  fig.align="center", ##fig.width=6, fig.height=4.5, 
+  ## out.width="748px", ##out.length="520.75px",
+  dpi=300, ##fig.path='Figs/',
+  cache=T##, echo=F, warning=F, message=F
+  )
+```
+
+### The Solow Growth Model
+
+ - A model to explain the role of factor accumulation in economic growth
+ 
+<center>
+<img src="./files/org.jpg" width="80%"/>
+</center>
+
+---
+
+### About this lecture
+
+<br>
+
+
+- We will do some algebra
+
+- Don't get scared
+
+- Please do interrupt me if you cannot follow
+
+- Make sure you read Chapter 2 of Jones and Vollrath
+
+- Make sure you read my lecture slides
+
+ - This weeks slides are intentially wordy to make it easier to follow after the class.
+
+
+---
+### Physical capital
+
+.pull-left[
+
+**Capital:** Tools – the physical objects that extend our ability or do work for us:
+
+- machines
+
+- buildings
+
+- infrastructure 
+
+- vehicles
+
+- computers
+]
+
+.pull-right[
+
+#### Key characteristics of capital ####
+
+- It is productive
+
+- It is produced (not like piece of land)
+ - investment
+
+- Its use is limited: limited number of people can use a given piece of capital at one time 
+
+ - unlike ideas
+
+- It can earn a return 
+ - incentive for its creation
+
+- It wears out 
+ - depreciation
+]
+
+---
+### Role of capital accumulation on economic growth
+
+.pull-left[
+<center>
+<img src="./files/gdp-cap-time.svg" width="100%"/>
+</center>
+
+Source: [Penn World Tables, version 9.1](https://www.rug.nl/ggdc/productivity/pwt/)
+]
+
+.pull-right[
+
+- Source of short-run economic growth in the Solow model is physical capital accumulation
+
+- China, Taiwan and Korea are example countries that achieved high economic growth through capital accumulation.
+]
+
+---
+### Role of capital accumulation on economic growth
+
+.pull-left[
+<center>
+<img src="./files/gdp-cap-cross-label.svg" width="100%"/>
+</center>
+
+Source: [Penn World Tables, version 9.1](https://www.rug.nl/ggdc/productivity/pwt/)
+]
+
+.pull-right[
+
+- Source of short-run economic growth in the Solow model is physical capital accumulation
+
+- China, Taiwan and Korea are example countries that achieved high economic growth through capital accumulation.
+
+- There is a positive correlation between GDP per capita and capital stock per capita.
+]
+---
+### Role of capital accumulation on economic growth
+
+.pull-left[
+<center>
+<iframe width="560" height="530" src="./files/gdp-cap-cross.html" frameborder="0" allowfullscreen></iframe>
+</center>
+]
+
+.pull-right[
+
+- GDP and capital stock over time values with 2011 thousand US$s.
+
+- Data source: [Penn World Tables, version 9.1](https://www.rug.nl/ggdc/productivity/pwt/)
+
+]
+
+
+
+---
+## The Solow model
+
+<br>
+
+
+
+Build around two equations:
+
+- Production function
+
+ - Constant returns to scale production function
+
+- Capital accumulation equation
+
+ - Households invest a constant share of income in capital stock
+
+--
+
+<br>
+
+Note: There are many varieties of the Solow model. Initially we will learn about the basic version with no technological change. In the later lectures, we will learn the Solow model with technological progress (extended Solow model).
+
+---
+
+
+### Production Function
+
+$Y = A F(K,hL)$, where $Y$ is output, $K$ is physical capital, $L$ is labor, $A$ is productivity, and $h$ is human capital.
+
+--
+
+- Assume $F(\cdot)$ displays **constant returns to scale (CRS):** $F(zK,zhL)=zF(K,hL)$, where $z$ is a constant.
+
+--
+
+- Convert aggregate production function, $F(\cdot)$, into per worker production function, $f(\cdot)$, by multiplying  $F(\cdot)$ with $1/L$:
+
+$$\left(\frac{1}{L} \right)Y = \left(\frac{1}{L} \right) F(K,hL)  = F\left(\frac{K}{L},\frac{hL}{L} \right) = F\left(\frac{K}{L},h \right)$$
+
+--
+- Define $k \equiv K/L$ , capital per labor, $y \equiv Y/L$, output per labor, and assume $h$ is constant:
+
+$$y = F(k,h) \equiv f(k)$$
+
+--
+
+- $f(\cdot)$ displays **diminishing marginal product:** 
+
+ Marginal product of capital (MPK) $=\frac{\partial f(k)}{\partial k} \approx[f(k+1)- f(k)]$ $\downarrow$ as $k$ $\uparrow$
+
+- Diminishing MPK will be the key factor for not having long run economic growth without technological progress.
+ - More on this point later
+
+---
+### Production function, graphical representation
+
+<center>
+<img src="./files/prod.jpg" width="50%"/>
+</center>
+Source: Weil (2013)
+---
+
+### An example production function displaying CRS: Cobb-Douglas Production Function
+
+Production function: $Y = A K^\alpha (hL)^{1-\alpha},$
+
+where $A$ is productivity, $K$ is capital, $h$ is human capital, and $L$ is labor, $0 < \alpha < 1$.
+
+--
+
+
+- It satisfies CRS assumption. Check yourself!
+
+--
+
+- Therefore
+
+$$ \frac{Y}{L} = \frac{ A K^\alpha (hL)^{1-\alpha}}{L} = A \frac{K^\alpha}{L^\alpha}\frac{(hL)^{1-\alpha}}{L^{1-\alpha}} = A \left(\frac{K}{L} \right)^{\alpha}h^{1-\alpha}, \hspace{.3cm} y =A k^\alpha h^{1-\alpha}$$
+--
+
+- Marginal product of physical capital is positive
+
+$$ \text{MPK} = \frac{\partial y}{\partial k} = \alpha A k^{\alpha-1}h^{1-\alpha} > 0$$
+--
+
+- Diminishing marginal product of capital
+
+$$ \frac{\partial^2 y}{\partial k^2} = (\alpha-1)\alpha A k^{\alpha-2}h^{1-\alpha} < 0 $$
+--
+- Hence, Cobb-Douglas function satisfies the Solow model assumptions on the production function.
+
+---
+### Solow model assumptions, cnt’d
+
+- Productivity, $A$, is constant.  _Will be relaxed in later lectures_
+
+- Human capital, $h$, is constant.  _Will be relaxed in later lectures_
+
+- Labor force participation rate is constant.
+
+--
+
+- Population grows at a rate $n$, and so does labor force, $L$.
+$$ L(t) = L_0 e^{nt} $$
+
+--
+- Trick: to find the growth rate of a variable, take log and differentiate w.r.t. time, $t$.
+ $$\ln L(t) = \ln L_0 + nt, \hspace{.5cm} \frac{\dot{L(t)}}{L(t)} = n,$$
+ where dot on top of a variable means derivative with respect to time: $\dot{L(t)}\equiv\frac{\partial L(t)}{\partial t}$
+- E.g. population grows are a rate, $n=.01$ or $1\%$ per year.
+ 
+- $\dot{L} \approx L(t+1)-L(t)$
+
+
+---
+
+### Accumulation of physical capital
+
+
+
+- Second key equation of the Solow model
+
+- Investment:  **a constant fraction of output, $\gamma$ is invested:** 
+$$I = \gamma Y$$
+- Consumption: output minus investment.
+
+- Depreciation: **a constant fraction, $\delta$, of capital wears out:**
+
+  $$ D = \delta K$$
+
+- Change in physical capital stock = Investment - Depreciation
+
+$$ \dot{K} = I - D $$
+
+
+- Subsituting investment and depreciation rules into above equation gives capital accumulation equation:
+
+$$ \dot{K} = \gamma Y - \delta K$$
+
+
+
+---
+### The Solow Model assumptions, all together
+
+<br>
+
+
+- Production function displays constant returns to scale
+
+- Production function displays diminishing marginal product of capital
+
+- Everyone works in the economy: population = labor force
+
+- Population and labor force grow at a constant rate $n$
+
+- Society invests a constant fraction, $\gamma$, of output into capital stock
+
+- A constant fraction, $\delta$, of capital depreciates
+
+<br>
+
+--
+
+### Characterize the dynamics of output per worker over time
+
+- To achieve this goal, we first need to characterize the dynamics of capital per worker
+---
+### Accumulation of capital per worker
+
+.pull-left[
+
+- Goal: write physical capital accumulation equation with per worker variables
+
+
+- Start with the equation describing the evolution of the aggregate capital:
+
+$$ \dot{K} = \gamma Y - \delta K$$
+- Divide each side by $K$:
+$$ \frac{\dot{K}}{K} = \frac{\gamma Y}{K} - \delta  $$
+
+- Define capital per worker, $k \equiv K/L$. 
+
+- Our goal is to convert $\frac{\dot{K}}{K}$ into $\frac{\dot{k}}{k}.$
+
+- take log (ln) of $k \equiv K/L$:
+   $$ \log(k) = \log(K/L) = \log(K)-\log(L)$$
+]
+
+--
+
+.pull-right[
+
+- Differentiate $k=K/L$ with respect to time (remember $k=k(t)$ and $L=L(t)$)
+
+ - Remember differentiation rules:
+$$ \frac{d \log(k(t))}{dt} = \frac{\frac{dk(t)}{dt}}{k} = \frac{\dot{k}}{k}$$
+ - Then, 
+$$ \frac{\dot{k}}{k} = \frac{\dot{K}}{K} - \frac{\dot{L}}{L}, \hspace{.5cm} \frac{\dot{k}}{k} = \frac{\dot{K}}{K} - n $$
+
+
+]
+
+---
+
+### Accumulation of capital per worker, cont'd
+
+.pull-left[
+
+- Now combine these two formulas to get the accumulation of capital per worker
+
+1. $$ \frac{\dot{K}}{K} = \frac{\gamma Y}{K} - \delta \Rightarrow \frac{\dot{K}}{K} =  \frac{\gamma Y/L}{K/K} - \delta $$
+2. $$ \frac{\dot{k}}{k} = \frac{\dot{K}}{K} - n \Rightarrow \frac{\dot{k}}{k} +n = \frac{\dot{K}}{K}$$
+
+- Substitute equation 2 into equation 1:
+$$\frac{\dot{k}}{k} +n  = \frac{\gamma Y/L}{K/L} - \delta $$  
+then take $n$ to the right hand side
+$$\frac{\dot{k}}{k} = \frac{\gamma Y/L}{K/L} - \delta -n $$  
+]
+
+--
+
+.pull-right[
+
+replace $Y/L$ with $y=Y/L$, and $K/L$ with $k=K/L$
+$$\frac{\dot{k}}{k} = \frac{\gamma y}{k} - \delta -n $$  
+multiply both sides of the equation with $k$ to get capital per worker accumulation equation
+
+
+
+$$ \dot{k} = \gamma y - (\delta+n)k$$
+which is equivalent to 
+
+$$ \dot{k} = \gamma f(k) - (\delta+n)k $$
+
+Change in capital per worker is equal to investment per worker, $\gamma f(k)$, minus capital dilution, $(\delta+n)k$, which is a result of capital depreciation and growing labor force.
+
+]
+---
+### Numerical example 
+
+- $f(k)=Ak^\alpha h^{1-\alpha}$, $\alpha=1/3$, $A=1$, $k(0)=1$, $h=1$, $n=.01$, $\gamma = .2$, and $\delta = .05$, where $k(0)$ is capital per worker at time $t=0$.  
+
+- Calculate $\dot{ k}(0)$, $k(1)$, $y(1)$.
+
+First write down capital per worker accumulation equation
+
+$$\dot{k}(0)  = \gamma f(k(0)) - (\delta+n)k(0)$$ 
+
+Subsitute in the numerical values
+
+$$\dot{k}(0)= .2\times 1^{1/3}-(.05+.01)\times 1 = .2 - .06= .14$$
+Notice that next periods capital per worker is approximately equal to current capital per worker plus change in capital per worker
+$$ k(1) \approx k(0) + \dot{k}(0) = 1 + .14 = 1.14 $$
+$$ y(1) = f(k(1))=1.14^{1/3} \approx 1.04 $$
+
+What about $k(2)$ and $y(2)$?
+
+---
+
+### Consumption
+
+- Income-expenditure identity in a closed economy (no international trade) without the government
+$$ y = c+i,$$
+where $c$ is consumption per worker. 
+
+- $c = y- i = y - \gamma y =  (1-\gamma)y$
+
+- investment-savings equality
+
+\begin{eqnarray}
+s&=& y - c \nonumber \\
+s & = & i = \gamma y, \nonumber
+\end{eqnarray}
+where $s$ is savings per worker. Then $\gamma$ is also saving rate, savings/income.
+
+---
+
+
+### Steady State
+
+.pull-left[
+
+Accumulation of capital per worker:
+
+$$\dot{k} = \gamma f(k) - (\delta+n)k $$
+
+Capital per worker and output per worker are constant at the steady state.
+
+- if $\gamma f(k) > (\delta+n) k$
+
+ - then $\dot{k} > 0$
+ - capital stock growing
+
+- if $\gamma f(k) < (\delta+n) k$
+
+ - then $\dot{k} < 0$
+ - capital stock shrinking
+
+- if $\gamma f(k) = (\delta+n) k$
+
+ - then $\dot{k} = 0$
+ - capital stock consant (**steady state**)
+]
+
+.pull-right[
+#### The Solow Diagram
+<center>
+<img src="./files/solow_diagram.jpg" width="100%"/>
+</center>
+Source: Weil (2013)
+
+$k^\ast$ is the steady state capital per worker level.
+]
+
+---
+### Diminishing marginal product of capital per worker
+.pull-left[
+- As capital per worker increases it requires more and more capital to make labor more productive.
+
+ - Intuition: a computer makes a worker more productive. However if you give her another computer, it will make her more productive but the benefit of the second computer will not be as large as the first computer.
+ 
+- Hence the concave shape of the production function
+
+- Eventually capital dilution $(\delta+n)k$ catches up with investment $\gamma f(k)$, and capital per worker cannot grow more.
+
+- Hence no long run economic growth in the Solow model (when there is no technological progress).
+
+]
+.pull-right[
+<center>
+<img src="./files/solow_diagram.jpg" width="100%"/>
+</center>
+Source: Weil (2013)
+]
+
+---
+
+### Steady State, analytical solution
+
+.pull-left[
+Assume production function is a Cobb-Douglas:
+$$ y = A k^\alpha h^{1-\alpha}.$$
+Then $\dot{k} = \gamma A k^\alpha h^{1-\alpha} - (\delta+n) k$
+
+No change of capital stock per worker at the steady state
+
+$$ 0 = \gamma A (k^{\ast})^\alpha h^{1-\alpha} - (\delta+n) k^{\ast}, $$
+
+where $k^*$ is steady state level of capital per worker.
+$$  \gamma A (k^{\ast})^\alpha h^{1-\alpha}= (\delta+n) k^{\ast} $$
+
+**Steady state capital per worker:**
+$$ k^{\ast} = h \left(\frac{\gamma A}{\delta+n} \right) ^{1/(1-\alpha)}$$ 
+]
+
+--
+
+.pull-rigth[
+
+Substitute steady state capital per worker into production function to find steady steady output per worker:
+$$ y^{\ast}= A (k^{\ast})^\alpha h^{1-\alpha}$$
+$$y^{\ast}= A \left[h \left(\frac{\gamma A}{\delta+n} \right) ^{1/(1-\alpha)}\right]^\alpha h^{1-\alpha} $$
+Rearrange to get the **steady state output per worker:**
+$$y^\ast = A^{1/(1-\alpha)}\left(\frac{\gamma}{\delta+n} \right)^{\alpha/(1-\alpha)}h$$
+
+]
+
+---
+
+### Comparative Statics
+
+$$ k^{\ast} = h \left(\frac{\gamma A}{\delta+n} \right) ^{1/(1-\alpha)}$$ 
+
+
+$$ y^{\ast}=  A^{1/(1-\alpha)}\left(\frac{\gamma}{\delta+n} \right)^{\alpha/(1-\alpha)}h$$
+
+
+
+- $k^\ast$ and $y^\ast$ are rising with investment rate $\gamma$, technology $A$, human capital $h$, 
+
+- $k^\ast$ and $y^\ast$ are declining with depreciation rate, $\delta$, and population growth rate, $n$.
+
+---
+### Increasing the investment rate
+
+.pull-left[
+- As $\gamma \uparrow$ 
+ - $k^{\ast} =h \left(\frac{\gamma A}{\delta+n} \right) ^{1/(1-\alpha)} \uparrow$
+ - $y^{\ast}= A^{1/(1-\alpha)}\left(\frac{\gamma}{\delta+n} \right)^{\alpha/(1-\alpha)}h \uparrow$
+]
+
+.pull-right[
+<center>
+<img src="./files/investment_inc.jpg" width="100%"/>
+</center>
+Source: Weil (2013)
+]
+
+
+---
+### Income increase after an increase in investment rate
+
+<center>
+<img src="./files/income_time.jpg" width="60%"/>
+</center>
+Source: Weil (2013)
+
+---
+
+
+### Growth Rates
+.pull-left[
+- The Solow model predicts that growth is faster, the farther away from steady state is an economy. 
+
+- Look at the growth rate of $k$
+
+$$ \frac{\dot{k}}{k} = \frac{\gamma A h^{1-\alpha}}{k^{1-\alpha}} - (\delta + n). $$
+- As $k$ rises, the growth rate of $k$ falls.
+]
+
+.pull-left[
+
+<center>
+<img src="./files/growth_rate.jpg" width="100%"/>
+</center>
+Source: Weil (2013)
+
+]
+---
+
+### Growth Rates, cont'd
+In the Solow model (current version)
+
+- No long-run growth of output per worker:
+$$ y^{\ast} = A (k^{\ast})^\alpha h^{1-\alpha}, \hspace{.3cm} \frac{\dot{y^{\ast}}}{y^{\ast}} = \alpha \frac{\dot{k^{\ast}}}{k^{\ast}} = 0$$ 
+
+- Transitional growth
+
+- Higher growth rate for lower capital stock countries
+
+- **Convergence toward the steady state:** 
+
+ - A country's per-worker output will grow or shrink from some initial position toward the steady-state level determined by the investment rate.
+
+---
+### Economics of Solow model
+
+
+
+- What is the main source of economic growth in the Solow model?  
+
+ - Capital accumulation
+
+- Why cannot countries grow forever?
+
+ - Diminishing marginal product of physical capital. 
+
+- What are the growth rates of the following variables at the steady state? 
+
+| Variable | Steady state growth rate |
+|:---|:---:|
+| Capital per worker | |
+| Output per worker | |
+| Consumption per worker | |
+| Capital | |
+| Output | |
+| Consumption | |
+
+---
+### Economics of Solow model
+
+
+
+- What is the main source of economic growth in the Solow model?  
+
+ - Capital accumulation
+
+- Why cannot countries grow forever?
+
+ - Diminishing marginal product of physical capital. 
+
+- What are the growth rates of the following variables at the steady state? 
+
+| Variable | Steady state growth rate |
+|:---|:---:|
+| Capital per worker | 0 |
+| Output per worker | 0 |
+| Consumption per worker | 0 |
+| Capital | |
+| Output | |
+| Consumption | |
+
+---
+### Economics of Solow model
+
+
+
+- What is the main source of economic growth in the Solow model?  
+
+ - Capital accumulation
+
+- Why cannot countries grow forever?
+
+ - Diminishing marginal product of physical capital. 
+
+- What are the growth rates of the following variables at the steady state? 
+
+| Variable | Steady state growth rate |
+|:---|:---:|
+| Capital per worker | 0 |
+| Output per worker | 0 |
+| Consumption per worker | 0 |
+| Capital | $n$|
+| Output | $n$ |
+| Consumption | $n$ | 
+
+---
+
+### Relative Growth Rates, Predictions
+
+<br>
+
+<br>
+
+- If two countries have the same rate of investment but different levels of income, the country with lower income will have higher growth.
+
+- If two countries have the same level of income but different rates of investment, then the country with a higher rate of investment will have higher growth.
+
+- A country that raises its level of investment will experience an increase in its rate of income growth.
+
+---
+### Next lecture
+
+<br>
+
+
+- Learn quantitative predictions of the Solow model
+
+- Compare model predictions with the data
+

@@ -70,9 +70,11 @@ style_mono_accent(
 ---
 ### Gross Domestic Product (GDP) ##
 
+<br>
+
 **GDP:** Market value of all the goods and services produced in a country within a period. 
 
-- GDP = output = income
+- GDP = domestic output = domestic income
 
 - GDP is a rough-and-ready measure of standard of living. 
 
@@ -82,7 +84,11 @@ style_mono_accent(
 
 ---
 
-### GDP per capita##
+### GDP per capita
+
+<br>
+
+
 GDP per capita = average income
 
 $$ y_t = \frac{\text{total GDP}}{\text{population}} $$
@@ -111,7 +117,7 @@ $$ y_t = \frac{\text{total GDP}}{\text{population}} $$
 class: center, middle
 name: data
 
-# Facts to be explained
+## Statistics on growth and development
 
 <html><div style='float:left'></div><hr color='#EB811B' size=1px width=796px></html>
 
@@ -277,7 +283,7 @@ The GDP data are in 2011 dollars.
 - The pace of growth worldwide has accelerated
 
  - 1500 - 1700: 0.04%
- - 1700 - 1970: 0.2%
+ - 1700 - 1870: 0.2%
  - 1870 - 1950: 1.1%
  - 1950 - 2008: 2.26%
  
@@ -307,10 +313,10 @@ Source: Jones and Vollrath, 2013
 <br>
 
 
-- "Low income" countries can move to be "low income"
+- "Low income" countries can move to be "high income"
 
 
-- "High income" countries can move to be "high income"
+- "High income" countries can move to be "low income"
 
 ---
 ### GDP per capita over time
@@ -321,12 +327,13 @@ Source: Jones and Vollrath, 2013
 </center>
 ]
 .pull-right[
-#### Importance of small difference in the rate of economic growth
+
 
 <br>
 
+#### Importance of small difference in the rate of economic growth
 
-- US GDP per capita in 2016 was 14 times as large as GDP capita in 1870
+- US GDP per capita in 2016 was 14 times as large as GDP per capita in 1870
  
  - 1.8% average growth rate per year (US)
 
@@ -459,6 +466,40 @@ Source: Jones and Vollrath, 2013
 ]
 
 ---
+### Summary
+
+- Brief overview of the module topics
+
+- Some basic facts about economic growth
+
+ - There is a high variation in per capita income across countries.
+ 
+ - There is a substantial variation in the rates of economic growth across countries.
+ 
+ - Growth rates are not usually constant over time
+ 
+ - A country's relative position in the relative income rank may change over time
+
+#### Review
+
+- To review lecture 1, read Chapter 1 of Jones and Vollrath, 2013
+
+
+
+---
+### Next Week
+
+- Learn about the Solow Growth Model
+
+ - A model to explain the role of factor accumulation in economic growth
+ 
+ <center>
+<img src="./files/org.jpg" width="60%"/>
+</center>
+
+- To prepare for the next lecture, read Chapter 2.1 of Jones and Vollrath, 2013
+
+---
 
 ### PC Session
 
@@ -482,26 +523,4 @@ Overall quantecon is a great resource to learn Python.
 Follow the materials here: https://python.quantecon.org/index_undergrad.html
 
 Or here: https://datascience.quantecon.org/
-
-
-
----
-### Next Week
-
-- Learn about the Solow Growth Model
-
- - A model to explain the role of factor accumulation in economic growth
- 
- <center>
-<img src="./files/org.jpg" width="80%"/>
-</center>
-
----
-### Review
-
-<br>
-
-- To review lecture 1, read Chapter 1 of Jones and Vollrath, 2013
-
-- To prepare for the next lecture, read Chapter 2.1 of Jones and Vollrath, 2013
 

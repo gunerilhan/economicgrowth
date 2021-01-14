@@ -41,15 +41,8 @@ style_mono_accent(
   code_font_google   = google_font("Fira Mono")
 )
 ```
-class: center, middle
-name: welcome
-
-# Welcome back (virtually)!
-
-<html><div style='float:left'></div><hr color='#EB811B' size=1px width=796px></html>
 
 
----
 
 ### EC569: Economic Growth 
 
@@ -316,7 +309,6 @@ Visit https://www.youtube.com/embed/1inxvYwAvnY
 <!-- <iframe width="660" height="415" src="https://www.youtube.com/embed/1inxvYwAvnY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 <!-- </center> -->
 
-
 ---
 ### Next Lecture
 
@@ -326,6 +318,20 @@ Visit https://www.youtube.com/embed/1inxvYwAvnY
  <center>
 <img src="./files/org.jpg" width="80%"/>
 </center>
+
+---
+### Let's help each other!
+
+<center>
+<img src="./files/sm.jpeg" width="60%"/>
+</center>
+
+- If you are experiencing difficulties, please do let me know. I'll try help you to best of my ability.
+
+- Please be forgiving to my mistakes. 
+
+- If you have suggestions on how to make the module run better, please don't hesitate to contact me.
+
 
 ---
 ### Do well on this module!

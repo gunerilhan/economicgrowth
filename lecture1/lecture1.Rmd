@@ -1,17 +1,21 @@
 ---
-title: "EC569 Economic Growth <br>  Introduction <br> Lecture 1"
-subtitle: "<html><div style='float:left'></div><hr color='##EB811B' size=1px width=796px></html>"
+title: "Economic Growth "
+# subtitle: ""
+subtitle: "Lecture 1: Introduction <br><html><div style='float:left'></div><hr color='#EB811B' size=1px width=796px></html>"
 author: '&#x130;lhan G&#252;ner'
-date: "`r Sys.Date()`"
+date: "University of Kent | EC569" # "`r Sys.Date()`"
+header-includes:
+   - \usepackage{tikz}
 output:
   xaringan::moon_reader:
-    css: [default, rladies, metropolis-fonts] 
+    css: xaringan-themer.css
     lib_dir: libs
     nature:
-      ratio: '16:9'
+      ratio : '16:9'
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
+      slideNumberFormat: "%current%"
 ---
 ```{r setup, include=FALSE}
 options(htmltools.dir.version = FALSE)
@@ -23,35 +27,22 @@ opts_chunk$set(
   cache=T##, echo=F, warning=F, message=F
   )
 ```
-
-## Welcome back!
-
-<center>
-<img src="./files/phd112219s.gif" width="100%"/>
-</center>
-
----
-
-## EC569: Economic Growth
-
-<br>
-
-- Convenor: &#x130;lhan G&#252;ner
-
-- Office: Kennedy Building 119
-
-- Office hours: Mondays and Wednesdays 10-11am
-
- - If you have questions to ask, please don't hesitate to stop by.
-
-- Email: i.guner@kent.ac.uk
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_mono_accent(
+  base_color = '#000000',
+  title_slide_text_color = '#000000',
+  title_slide_background_color = '#FFFFFF',
+  header_font_google = google_font("Josefin Sans"),
+  text_font_google   = google_font("Montserrat", "300", "300i"),
+  code_font_google   = google_font("Fira Mono")
+)
+```
 
 
 
 
----
-
-## Questions 
+### Questions 
 
 - Why do countries differ in their standards of living?
 
@@ -59,7 +50,7 @@ opts_chunk$set(
 
 - What are the roles of physical capital, population, human capital, ideas, basic science, and public policy for growth?
 
-## Topics
+### Topics
 
 
 - Facts and modern theories of economic growth
@@ -68,230 +59,8 @@ opts_chunk$set(
 
 - The relationship between government policies, income inequality and economic growth
 
-
-
 ---
-
-## Timetable
-
-<br>
-
-<br>
-
-- Lectures: Weeks 13-24, Mondays 14:00 - 15:00
-
-- Seminars: Weeks 16-18, 20-22
-
----
-## Assessment
-
-Coursework: 20%
- - Essay (10%): Due Friday of Week 24
-
- - 3 Problem Sets (10% total)
-  - Problem sets will be assessed through Moodle quizzes
-  - Quiz question will be on the problem set questions
-  - The average of your highest marked 2 quizzes will be your problem set mark
-  - You must take at least 2 quizzes
-  - Dates of problem sets:
-
-
- | | Assignment Date | Moodle Quiz Date |
- | --- | --- | --- |
- | Problem Set #1 | Monday of Week 15 |Week 16 Monday 4pm – Wednesday 4pm|
- | Problem Set #2 | Monday of Week 18 | Week 19 Monday 4pm – Wednesday 4pm |
- |Problem Set #3 |Monday of Week 21 | Week 22 Monday 4pm – Wednesday 4pm |
-
-Exam: 80%
-
-
-
----
-## Assessment of problem sets
-
-- Problem sets will be assessed using Moodle quizzes. 
-
-- On the due weeks of problem sets, quizzes will appear on Moodle for _48 hours from Monday 4pm to Wednesday 4pm_.
-
-- To take a quiz, first, _you must submit your work on  the problem set in digital form_ (typed or scanned copy of your hand-written solution). 
-
-- Each problem set quiz will be _on the questions of the problem set._ 
-
-- You will have _2 hours to complete the quiz once started_.
-
-- You will have _1 attempt_.
-
-- A mock problem set #0 is up on Moodle today. Quiz will appear on Moodle next week.
-
----
-## Aim of the problem sets
-
-.pull-left[
-
-<br>
-
-- My intention is _not_ assessing you
-
-- Incentivizing you to learn module material on time
-
-- Practice examinable material
-
-- Opportunity to check your understanding
-
-]
-
-.pull-right[
-
-<br>
-
-<iframe width="560" height="650" src="./files/ps.html" frameborder="0" allowfullscreen></iframe>
-
-]
-
-
----
-### Essay
-
-- Essay questions will be posted by Monday of Week 14
-
-- Essay is due Friday of Week 24
-
-- Approximately 2 thousand words
-
- - Word limit is not strict at all
- 
- - A 1000 word essay which is clear, is concise, and conveys your arguments in a robust way would earn you at least a first.
-
-
----
-## Textbooks ##
-
-<br>
-
-<br>
-
-
-- Weil, D., 2013, Economic Growth, 3rd ed., **must read**
-
-- Jones, C. and D. Vollrath, 2013, Introduction to Economic Growth, 3rd ed.,  **must read**
-
----
-
-## Seminars 
-
-- Questions will be available on Moodle before seminars
-
- - Data analysis
- 
- - Questions from required readings
- 
- - Problems
-
-- Everyone is responsible for reading the material and answering the questions.
-
-- Mandatory papers/articles are marked with (<font color="red">*</font>) on the Module outline.
-
-- There will be exam questions on them.
-
-
-
----
-
-## Other Resources
-
-- [CORE The Economy: Economics for a Changing World](https://core-econ.org/the-economy/?lang=en). Oxford University Press, First Edition, 2017, ISBN 9780198810247.
-
-- https://ourworldindata.org : A thoughtful collection of essays on changing living conditions around the world, supplemented with striking visualization of recent data.
-
-- Rosling, H., Rosling, O., & Rönnlund, A. R. (2018). Factfulness: Ten Reasons We're Wrong about the World--and why Things are Better Than You Think. St Martin's Press.
-
-- Economical Writing by Deirdre N. McCloskey
-
-- The Book of Why: The New Science of Cause and Effect by Judea Pearl and Dana Mackenzie 
-
-- https://voxeu.org : VOX-CEPR Policy Portal, “Research-based policy analysis and commentary from leading economists”. Here, economists write about their research in an accessible style. 
-
-- https://growthecon.com/blog/ : Blog of Dietrich Vollrath. 
-
-- https://gunerilhan.github.io/teaching/ : My personal webpage where I post module related material. 
-
----
-### [ourworldindata.org](https://ourworldindata.org/)
-
-<center>
-<img src="./files/world-100.jpg" width="70%"/>
-</center>
-
----
-### Factfulness
-.pull-left[
-<center>
-<img src="./files/BK_HODD_001388_2.jpg" width="60%"/>
-</center>
-]
-
-.pull-right[
-<center>
-<img src="./files/BK_HODD_001388_1.jpg" width="60%"/>
-</center>
-
-]
-
----
-## How do I get a first?
-
-
-.pull-left[
-
-<br>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/eb60pnjABGg?start=17" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-]
-
---
-
-.pull-right[
-
-<br>
-
-
-- Work hard!
-
-- Read relevant textbook chapters
-
-- Keep pace with lectures
-
-- Take problem sets seriously, make sure you can solve the question in an exam environment
-
-- Don't postpone studying for the module till a few days before the exam
-
-
-]
-
-
-
-
----
-<br>
-<center>
-<img src="./files/feedback.jpg" width="40%"/>
-</center>
----
-## Read the Module Outline
-<center>
-<img src="./files/syllabus.jpg" width="70%"/>
-</center>
-
----
-### For those who didn't get the joke in the previous slide
-<br>
-
-<center>
-<iframe width="660" height="415" src="https://www.youtube.com/embed/1inxvYwAvnY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</center>
-
----
-## Overview of the module
+### Overview of the module
 
 <center>
 <img src="./files/org.jpg" width="80%"/>
@@ -299,7 +68,7 @@ Exam: 80%
 
 
 ---
-## Gross Domestic Product (GDP) ##
+### Gross Domestic Product (GDP) ##
 
 **GDP:** Market value of all the goods and services produced in a country within a period. 
 
@@ -313,7 +82,7 @@ Exam: 80%
 
 ---
 
-## GDP per capita##
+### GDP per capita##
 GDP per capita = average income
 
 $$ y_t = \frac{\text{total GDP}}{\text{population}} $$
@@ -339,7 +108,7 @@ $$ y_t = \frac{\text{total GDP}}{\text{population}} $$
 - **Our primary focus is the long-run (or trend) component of GDP per capita over time.**
 ---
 
-class: inverse, center, middle
+class: center, middle
 name: data
 
 # Facts to be explained
@@ -390,18 +159,18 @@ $$ \frac{\text{US (\$53015)}}{\text{Iran (\$15529)}} \approx \frac{\text{Iran (\
 
 
 ---
-### Rich countries
+### High-income countries
 
-<br>
 
 
 | Country        |   Year |   GDP per capita |   GDP per worker |   E/pop |   Avg. Growth (1960-2016) |   Years to double |
-|:---------------|:-------:|:-----------------:|:-----------------:|:--------:|:--------------------------:|:------------------:|
-| Spain          |   2016 |            31556 |          79356.5 |    39.8 |                       2.9 |              24.9 |
-| France         |   2016 |            38758 |          93949.6 |    41.3 |                       2   |              36.2 |
-| United Kingdom |   2016 |            39162 |          81439.1 |    48.1 |                       1.8 |              39.7 |
-| Japan          |   2016 |            36452 |          68097   |    53.5 |                       3.2 |              22.6 |
-| United States  |   2016 |            53015 |         112765   |    47   |                       1.9 |              37.4 |
+|:---|:---:|:---:|:---:|:---:|:---:|:---:|
+| Spain          |   2016 |            31556 |          79356.5 |    39.8 |  2.9 |  24.9 |
+| France         |   2016 |            38758 |          93949.6 |    41.3 |  2   | 36.2 |
+| United Kingdom |   2016 |            39162 |          81439.1 |    48.1 | 1.8 |  39.7 |
+| Japan          |   2016 |            36452 |          68097   |    53.5 | 3.2 |  22.6 |
+| United States  |   2016 |            53015 |         112765   |    47   |  1.9 |37.4 |
+
 
 
 Data source: Maddison Project Database (2018) 
@@ -415,7 +184,7 @@ The GDP data are in 2011 dollars.
 - It takes 72/x years to double the income
 
 ---
-### Poor Countries
+### Low-income countries
 
 <br>
 
@@ -486,12 +255,14 @@ The GDP data are in 2011 dollars.
 
 
 
-| Country                            |   Year |   GDP per capita |   GDP per worker |   E/pop |   Avg. Growth (1960-2016) |   Years to double |
-|:-----------------------------------|:-------:|:-----------------:|:-----------------:|:--------:|:--------------------------:|:------------------:|
-| Haiti                              |   2016 |             1636 |           4066.2 |    40.2 |                      -0.7 |            -107.8 |
-| Madagascar                         |   2016 |             1307 |           2528.6 |    51.7 |                      -0.9 |             -80.8 |
-| Venezuela|   2016 |            13159 |          28878.4 |    45.6 |                       0.2 |             375.1 |
-| Zimbabwe                           |   2016 |             1729 |           2845.4 |    60.8 |                      -0   |           -6205.2 |
+| Country                            |   Year |   GDP per capita |   GDP per worker |   E/pop |   Avg. Growth (1960-2016) | 
+|:-----------------------------------|:-------:|:-----------------:|:-----------------:|:--------:|:--------------------------:|
+| Central African Republic           |   2016 |              619 |           1958   |    31.6 |                      -1.7 |   
+| Haiti                              |   2016 |             1636 |           4066.2 |    40.2 |                      -0.7 |    
+| Madagascar                         |   2016 |             1307 |           2528.6 |    51.7 |                      -0.9 |      
+| Venezuela (Bolivarian Republic of) |   2016 |            13159 |          28878.4 |    45.6 |                       0.2 |       
+| Zimbabwe                           |   2016 |             1729 |           2845.4 |    60.8 |                      -0   |   
+
 
 Data source: Maddison Project Database (2018) 
 
@@ -502,10 +273,11 @@ The GDP data are in 2011 dollars.
 ---
 ### Fact 3: Growth rates are not usually constant over time
 
+.pull-left[
 - The pace of growth worldwide has accelerated
 
- - 1500 - 1700: .04%
- - 1700 - 1970: .2%
+ - 1500 - 1700: 0.04%
+ - 1700 - 1970: 0.2%
  - 1870 - 1950: 1.1%
  - 1950 - 2008: 2.26%
  
@@ -517,20 +289,31 @@ The GDP data are in 2011 dollars.
 | India | 1980-2008 | 3.7% |
 | China | 1960-1978 | 2.1% |
 | China | 1978-2008 | 7.7% |
- 
+
+Source: Jones and Vollrath, 2013
+
+]
+--
+.pull-right[
+#### 10-year moving average growth rates of China and India
+<center>
+<img src="./files/china-india.svg" width="100%"/>
+</center>
+
+]
 ---
 ### Fact 4: A country's relative position in the relative income rank may change over time
 
 <br>
 
 
-- "Poor" countries can move to be "rich"
+- "Low income" countries can move to be "low income"
 
 
-- "Rich" countries can move to be "poor"
+- "High income" countries can move to be "high income"
 
 ---
-### GDP over time
+### GDP per capita over time
 .pull-left[
 <br>
 <center>
@@ -549,15 +332,15 @@ The GDP data are in 2011 dollars.
 
  - 1.3% average growth rate per year (UK)
 
-- In 1870, UK was 30% richer than the US
+- In 1870, UK was 3% richer than the US
 
-- In 2016, UK was 30% poorer than the US
+- In 2016, UK was 26% poorer than the US
 
 
 ]
 
 ---
-### GDP over time
+### GDP per capita over time
 
 .pull-left[
 <br>
@@ -575,7 +358,7 @@ The GDP data are in 2011 dollars.
 
 
 ---
-### GDP over time
+### GDP per capita over time
 
 .pull-left[
 <br>
@@ -594,7 +377,7 @@ The GDP data are in 2011 dollars.
 ]
 
 ---
-### GDP over time
+### GDP per capita over time
 .pull-left[
 <br>
 <center>
@@ -690,9 +473,9 @@ The GDP data are in 2011 dollars.
 
 The following lectures from https://quantecon.org/
 
-- [Python essentials](https://python.quantecon.org/python_essentials.html)
+- [<u>Python essentials</u>](https://python-programming.quantecon.org/intro.html)
 
-- [An introductory example](https://python.quantecon.org/python_by_example.html)
+- [<u>An introductory example:</u>](https://python.quantecon.org/python_by_example.html)
 
 Overall quantecon is a great resource to learn Python.
 
@@ -703,7 +486,7 @@ Or here: https://datascience.quantecon.org/
 
 
 ---
-## Next Week
+### Next Week
 
 - Learn about the Solow Growth Model
 
@@ -714,11 +497,11 @@ Or here: https://datascience.quantecon.org/
 </center>
 
 ---
-### Do well on this module!
-<br>
+### Review
+
 <br>
 
-<center>
-<iframe src="https://giphy.com/embed/1iTX9tGRTTTVZb7q" width="480" height="267" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/americasgottalent-agt-americas-got-talent-1iTX9tGRTTTVZb7q"></a></p>
-</center>
+- To review lecture 1, read Chapter 1 of Jones and Vollrath, 2013
+
+- To prepare for the next lecture, read Chapter 2.1 of Jones and Vollrath, 2013
 

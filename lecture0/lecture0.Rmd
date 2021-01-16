@@ -121,7 +121,7 @@ Coursework: 20%
 
  - 3 Problem Sets (10% total)
   - Problem sets will be assessed through Moodle quizzes
-  - Quiz question will be on the problem set questions
+  - Quiz questions will be on the problem set questions
   - The average of your highest marked 2 quizzes will be your problem set mark
   - You must take at least 2 quizzes
   - Dates of problem sets:
@@ -303,11 +303,11 @@ Exam: 80%
 
 <br>
 
-Visit https://www.youtube.com/embed/1inxvYwAvnY
+<!-- Visit https://www.youtube.com/embed/1inxvYwAvnY -->
 
-<!-- <center> -->
-<!-- <iframe width="660" height="415" src="https://www.youtube.com/embed/1inxvYwAvnY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
-<!-- </center> -->
+<center>
+<iframe width="660" height="415" src="https://www.youtube.com/embed/1inxvYwAvnY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
 
 ---
 ### Next Lecture
@@ -326,7 +326,7 @@ Visit https://www.youtube.com/embed/1inxvYwAvnY
 <img src="./files/sm.jpeg" width="60%"/>
 </center>
 
-- If you are experiencing difficulties, please do let me know. I'll try help you to best of my ability.
+- If you are experiencing difficulties, please do let me know. I'll try help you to the best of my ability.
 
 - Please be forgiving to my mistakes. 
 

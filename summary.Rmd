@@ -1,0 +1,32 @@
+---
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<center> <h2>EC569: Economic Growth</h2> </center>
+
+<center> <h3>Lectures</h3> </center>
+| Week | Videos | Slides | Readings |
+|:---  |:---   | :---  | :---    | 
+| 13   | [Lecture 0](https://kent.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=e85944e0-68d5-4e98-91ae-acb100bf1ebc) | [Lecture 0, html](https://raw.githack.com/gunerilhan/economicgrowth/master/lecture0/lecture0.html#1) <br> [Lecture 0, clean pdf](https://raw.githack.com/gunerilhan/economicgrowth/master/lecture0/files/lecture0.pdf) <br> [Lecture 0, written pdf](https://raw.githack.com/gunerilhan/economicgrowth/master/lecture0/files/lecture0-written.pdf) | | 
+| 13 |[Lecture 1](https://kent.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=06e4ad7b-f33e-4690-8cba-acb1009d4263) |[Lecture 1, html](https://raw.githack.com/gunerilhan/economicgrowth/master/lecture1/lecture1.html#1) <br> [Lecture 1, clean pdf](https://raw.githack.com/gunerilhan/economicgrowth/master/lecture1/files/lecture1-clean.pdf) <br> [Lecture 1, written pdf](https://raw.githack.com/gunerilhan/economicgrowth/master/lecture1/files/lecture1-written.pdf) | |
+| 14   | [Lecture 2, part a](https://kent.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=565f6d7f-8a53-4a0c-a16e-acb700ae3bbf) <br> [Lecture 2, part b](https://kent.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=dc08fb1c-129d-4641-a74d-acb700af26ee) <br> [Lecture 2, part c](https://kent.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=3c87c1a1-925c-4fbe-8897-acb700b0d173) <br> [Lecture 2, derivations](https://kent.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=66820963-3ce4-4b14-b473-acb700b23338) | [Lecture 2, html](https://raw.githack.com/gunerilhan/economicgrowth/master/lecture2/lecture2.html#1) <br> [Lecture 2, clean pdf](https://raw.githack.com/gunerilhan/economicgrowth/master/lecture2/files/lecture2-clean.pdf) <br> [Lecture 2, written pdf](https://raw.githack.com/gunerilhan/economicgrowth/master/lecture2/files/lecture2-written.pdf)| |
+| 15   | [Lecture 3, part a](https://kent.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=62fd2fb8-61ef-4bb7-af56-acbe00cb8d8b) <br> [Lecture 3, part b](https://kent.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=827d0d4f-1cbc-4619-b774-acbe00d68ec0) <br> [Lecture 3, part c](https://kent.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=b9941152-3076-4afe-b4ea-acbe00de07d4) | [Lecture 3, html](https://raw.githack.com/gunerilhan/economicgrowth/master/lecture3/lecture3.html#1) <br> [Lecture 3, clean pdf](https://raw.githack.com/gunerilhan/economicgrowth/master/lecture3/files/lecture3-clean.pdf) <br> [Lecture 3, written pdf](https://raw.githack.com/gunerilhan/economicgrowth/master/lecture3/files/lecture3-written.pdf) | |
+| 16   | [Lecture 4, part a](https://kent.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=e0bf6022-c2e5-4ad7-a2e8-acc500f6fc70) <br> [Lecture 4, part b](https://kent.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=3b9bcb91-2ace-4016-b53b-acc500f88d16) <br> [Lecture 4, exercise a](https://kent.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=43272305-5ae4-42a4-8f4a-acc500fa1ac4) <br> [Lecture 4, exercise b](https://kent.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=a36ae899-3d3e-4e1c-8667-acc500fa55f2) <br> [Lecture 4, appendix](https://kent.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=863e598d-7bba-4ab0-bfb5-acc800fabc71)| [Lecture 4, html](https://raw.githack.com/gunerilhan/economicgrowth/master/lecture4/lecture4.html#1) <br> [Lecture 4, clean pdf](https://raw.githack.com/gunerilhan/economicgrowth/master/lecture4/files/lecture4-clean.pdf) <br> [Lecture 2, written pdf](https://raw.githack.com/gunerilhan/economicgrowth/master/lecture4/files/lecture4-written.pdf) | |
+| 17   | [Lecture 5, part a](https://kent.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=46369f48-a3f2-44ea-addf-accd00ab7f68) <br> [Lecture 5, part b](https://kent.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=c38fe264-076f-47a4-a10b-accd00aab983) <br> [Lecture 5, part c](https://kent.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=59f028ac-8475-4af7-a849-accd00aaee11) | [Lecture 5, html](https://raw.githack.com/gunerilhan/economicgrowth/master/lecture5/lecture5.html#1) <br> [Lecture 5, clean pdf](https://raw.githack.com/gunerilhan/economicgrowth/master/lecture5/files/lecture5-clean.pdf) <br> [Lecture 5, written pdf](https://raw.githack.com/gunerilhan/economicgrowth/master/lecture5/files/lecture5-written.pdf)| |
+| 18   | [Lecture 6, part a](https://kent.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=a92a897b-ae5c-44eb-9037-acd6011ba7a9) <br> [Lecture 6, part b](https://kent.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=32c3e633-5faa-4291-9218-acd60118e319) <br> [Lecture 6, part c](https://kent.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=b1b64d8d-13d8-473e-b42f-acd60118e2e0) | [Lecture 6, html](https://raw.githack.com/gunerilhan/economicgrowth/master/lecture6/lecture6.html#1) <br> [Lecture 6, clean pdf](https://raw.githack.com/gunerilhan/economicgrowth/master/lecture6/files/lecture6-clean.pdf) <br> [Lecture 6, written pdf](https://raw.githack.com/gunerilhan/economicgrowth/master/lecture6/files/lecture6-written.pdf) | |
+| 19   | [Lecture 7, part a](https://kent.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=dd83d02e-406b-4fd5-8f0a-acdd00f24008) <br> [Lecture 7, part b](https://kent.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=8e0130dd-cbe2-482c-a8de-acdd00f260d9) <br> [Lecture 7, part c](https://kent.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=ffc051f1-b800-4438-9f2c-acdd00f26104) <br> [Lecture 7, part d](https://kent.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=b3e692f1-dc8a-4c69-ab9c-acdd00f24050) | [Lecture 7, html](https://raw.githack.com/gunerilhan/economicgrowth/master/lecture7/lecture7.html#1) <br> [Lecture 7, clean pdf](https://raw.githack.com/gunerilhan/economicgrowth/master/lecture7/files/lecture7-clean.pdf) <br> [Lecture 7, written pdf](https://raw.githack.com/gunerilhan/economicgrowth/master/lecture7/files/lecture7-written.pdf)| |
+
+
+<br>
+
+<center> <h3>Seminars</h3> </center>
+
+| Week | Questions | Readings | Videos | Slides |
+|:---  | :---      | :---    | :---   | :---   |
+| 16   | Seminar 1 Qs |       |        |        |
+
+

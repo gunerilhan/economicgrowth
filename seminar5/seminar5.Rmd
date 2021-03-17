@@ -1,0 +1,227 @@
+---
+title: "Economic Growth "
+# subtitle: ""
+subtitle: "Seminar 5:  Technology Adoption <br><html><div style='float:left'></div><hr color='#EB811B' size=1px width=796px></html>"
+author: '&#x130;lhan G&#252;ner'
+date: "University of Kent | EC569" # "`r Sys.Date()`"
+header-includes:
+   - \usepackage{tikz}
+output:
+  xaringan::moon_reader:
+    css: xaringan-themer.css
+    lib_dir: libs
+    nature:
+      ratio : '16:9'
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      slideNumberFormat: "%current%"
+
+
+
+---
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+library(knitr)
+opts_chunk$set(
+  fig.align="center", ##fig.width=6, fig.height=4.5, 
+  ## out.width="748px", ##out.length="520.75px",
+  dpi=300, ##fig.path='Figs/',
+  cache=T##, echo=F, warning=F, message=F
+  )
+```
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_mono_accent(
+  base_color = '#000000',
+  title_slide_text_color = '#000000',
+  title_slide_background_color = '#FFFFFF',
+  header_font_google = google_font("Josefin Sans"),
+  text_font_google   = google_font("Montserrat", "300", "300i"),
+  code_font_google   = google_font("Fira Mono"),
+
+)
+```
+
+### Questions
+
+1. Why do you think that violence might affect inventive activity?
+
+2. How does Cook (2014) show that violence leads to reductions to patenting activity
+among the victims of violence? Briefly explain the historical context that provides a
+natural experiment to the research question Cook (2014) answering.
+
+3. What are the main results of Cook (2014)? Briefly explain.
+
+4. What’s the particular misallocation analyzed in Hsieh, Hurst, Jones and Klenow
+(2019)? In this paper, what are the barriers that prevent individuals from working
+in occupations which they have comparative advantage?
+
+5. How do Hsieh, Hurst, Jones and Klenow (2019) quantify the economic loss resulting
+from misallocation of talent? Here, you do not need to read and understand the model section as the section is mathematically intensive. Just try to understand the main building blocks of the model by reading the introduction.
+
+6. Clearly state a few quantitative results of Hsieh, Hurst, Jones and Klenow (2019). Explain the results.
+
+---
+
+class: center, middle
+name: violence
+
+## What promotes or what kills innovation?
+
+<html><div style='float:left'></div><hr color='#EB811B' size=1px width=796px></html>
+
+Cook, L. D. (2014). Violence and economic activity: evidence from African American patents, 1870–1940. Journal of Economic Growth, 19(2), 221-257.
+
+---
+### Research question
+
+What are the effects of ethnic and political violence on patenting?
+
+--
+
+<br>
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/z2hj_zfrG6g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+
+---
+class: middle
+### 1. Why do you think that violence might affect inventive activity?
+
+--
+
+> '... socioeconomic stress can lead to lower scores on cognitive tests (Duncan et al. 2011; Duncan and Magnuson 1998), and poor economic decision making (Shafir and Mullainathan 2012)'
+
+- Worrying about being subject to violence reduces one's mental capacity to think about new inventions. 
+
+- Posibility of future violence reduces the return on inventions.
+
+- Uncertainty about the property rights enforcement reduces incentives to innovate.
+
+- Destruction of property reduces incentives to innovate
+
+> - '... riots lower the value of commercial and residential property (Collins and Margo 2003), which would reduce financing oportunities and increase operating costs.'
+
+
+> - 'Passage of segregation laws also decreased access to patenting institutions and to social networks and institutions that support invention and innovation.'
+
+- patent attorneys in white-only commercial districts, little recourse to courts, lack of access to major exhibitions and education
+
+
+---
+### 2. Briefly explain the historical context that provides a natural experiment to the research question Cook (2014) answering.
+
+.pull-left[
+
+- Dramatic increase of race-related violence in the United States between 1870 and 1940
+
+ - race riots, lynchings, state segregation laws
+
+<center>
+<img src="./files/table1.jpg" width="100%"/>
+</center>
+
+]
+
+.pull-right[
+<br>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-DGY9HvChXk?start=19" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+]
+
+---
+### 2. How does Cook (2014) show that violence leads to reductions to patenting activity among the victims of violence? 
+
+> 'These trends provide a natural experiment in testing the extent to which a schock to personal security and property rights can affect individual creativity and the production of economically intangible capital.'
+
+---
+### 3. What are the main results of Cook (2014)? Briefly explain.
+
+.pull-left[
+<center>
+<img src="./files/figure1.jpg" width="100%"/>
+</center>
+]
+
+.pull-right[
+<center>
+<img src="./files/figure2.jpg" width="100%"/>
+</center>
+]
+
+
+---
+### Results, cont'd
+
+.right-column[
+<center>
+<img src="./files/table6.jpg" width="70%"/>
+</center>
+]
+
+
+---
+
+
+class: center, middle
+name: misallocation
+
+## Misallocation of talent
+
+<html><div style='float:left'></div><hr color='#EB811B' size=1px width=796px></html>
+
+Hsieh, C. T., Hurst, E., Jones, C. I., & Klenow, P. J. (2019). The allocation of talent and U.S. economic growth. Econometrica, 87(5), 1439-1474.
+---
+### Research Question
+
+What are the aggregate effects of the changing allocation of talent from 1960 to 2010?
+
+<br>
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cBDR0yVXS78" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+
+---
+#### What’s the particular misallocation analyzed in Hsieh, Hurst, Jones and Klenow (2019)?
+
+- Misallocation of talent across occupations
+
+--
+
+#### In this paper, what are the barriers that prevent individuals from working in occupations which they have comparative advantage?
+
+- Discrimination in the labor market
+
+ - Highly talented women and black men are unable to work in occupations that suits their talents
+
+- Barriers to forming human capital
+
+> 'parental and teacher discrimination in favor of boys in the development of certain skills, historical restrictions on the admission of women to colleges or training programs, differences in school quality between black and white neighborhoods, and differences in parental wealth and schooling that alter the cost of investing in their children's human capital'
+
+- Social norms against women and black men working on some occupations
+
+---
+### Wage gaps and the relative likelihood of working in certain occupations 
+<center>
+<img src="./files/figure8.jpg" width="70%"/>
+</center>
+
+---
+### How do Hsieh, Hurst, Jones and Klenow (2019) quantify the economic loss resulting from misallocation of talent? 
+
+#### Here, you do not need to read and understand the model section as the section is mathematically intensive. Just try to understand the main building blocks of the model by reading the introduction.
+
+- They build a model that incorporates 
+
+ - labor market frictions: wedge between occupation-speficif wages and marginal products
+ 
+ - human capital frictions: extra cost to acquire human capital for certain groups
+ 
+ - occupational preferences
+
+
+---
+### Clearly state a few quantitative results of Hsieh, Hurst, Jones and Klenow (2019). Explain the results.

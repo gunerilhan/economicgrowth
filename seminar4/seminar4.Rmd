@@ -1,0 +1,437 @@
+---
+title: "Economic Growth "
+# subtitle: ""
+subtitle: "Seminar 4:  Technology Adoption <br><html><div style='float:left'></div><hr color='#EB811B' size=1px width=796px></html>"
+author: '&#x130;lhan G&#252;ner'
+date: "University of Kent | EC569" # "`r Sys.Date()`"
+header-includes:
+   - \usepackage{tikz}
+output:
+  xaringan::moon_reader:
+    css: xaringan-themer.css
+    lib_dir: libs
+    nature:
+      ratio : '16:9'
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      slideNumberFormat: "%current%"
+
+
+
+---
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+library(knitr)
+opts_chunk$set(
+  fig.align="center", ##fig.width=6, fig.height=4.5, 
+  ## out.width="748px", ##out.length="520.75px",
+  dpi=300, ##fig.path='Figs/',
+  cache=T##, echo=F, warning=F, message=F
+  )
+```
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_mono_accent(
+  base_color = '#000000',
+  title_slide_text_color = '#000000',
+  title_slide_background_color = '#FFFFFF',
+  header_font_google = google_font("Josefin Sans"),
+  text_font_google   = google_font("Montserrat", "300", "300i"),
+  code_font_google   = google_font("Fira Mono"),
+
+)
+```
+
+### Questions
+
+<br>
+
+<br>
+
+
+
+1. According to [Chad Jones (2017)](https://voxeu.org/article/new-ideas-about-new-ideas-paul-romer-nobel-laureate), what new ideas did Romer bring about new ideas?
+
+2. In what key aspects does the Romer's endogenous growth model differ from Solow's exogenous growth model?
+
+<br>
+
+
+Assigned reading:
+
+Chad Jones, “New ideas about new ideas: Paul Romer, Nobel laureate” VOX, 12 October
+2018
+
+---
+
+class:  center, middle
+name: q-12
+
+## How are ideas different than goods?
+
+<html><div style='float:left'></div><hr color='#EB811B' size=1px width=796px></html>
+
+---
+### Ideas 
+
+- are non-rivalrous
+
+ - not depleted by use
+ 
+ - technologically possible to be used by any number of people at a time
+ 
+- Leads to increasing returns to scale
+
+ - production with rivalrous goods and ideas together exhibit increasing returns
+
+- Necessitates imperfect competition
+---
+class: center, middle
+name: q-1
+
+## In what key aspects does the Romer's endogenous growth model differ from Solow's exogenous growth model?
+
+<html><div style='float:left'></div><hr color='#EB811B' size=1px width=796px></html>
+
+---
+### Technological change
+
+is a result of efforts by 
+
+- researchers
+
+- entrepreneurs
+
+- inventors
+
+who respond to economic incentives such as 
+
+- tax policy,
+
+- research funding,
+
+- education policy,
+
+- intellectual property rights.
+
+With these policies one can potentially impact economic growth.
+
+
+
+---
+### Question 
+
+According to [Bloom, Van Reenen and Williams (2019)](https://pubs-aeaweb-org.chain.kent.ac.uk/doi/pdfplus/10.1257/jep.33.3.163)
+
+1. What is the motivation of this paper?
+
+2. Why should governments promote innovation? 
+
+3. What are the main policy tools to promote innovation? 
+
+4. How effective are these tools in promoting innovation?
+
+
+Assigned Readings
+
+Bloom, N., Van Reenen, J., & Williams, H. (2019). A toolkit of policies to
+promote innovation. Journal of Economic Perspectives, 33(3), 163-84.
+
+---
+
+class:  center, middle
+name: q0
+
+## What is the motivation of this paper?
+
+<html><div style='float:left'></div><hr color='#EB811B' size=1px width=796px></html>
+
+
+
+
+---
+### US R&D as a share of GDP
+
+<center>
+<img src="./files/figure1.jpg" width="60%"/>
+</center>
+
+---
+### UK R&D as a share of GDP by source of funds
+
+<center>
+<img src="./files/rd_expenditures_gdp_uk.svg" width="80%"/>
+</center>
+
+Source: OECD and own calculations
+
+
+
+---
+<center>
+<img src="./files/table1.jpg" width="60%"/>
+</center>
+
+---
+### R&D expenditures in different countries
+
+<center>
+<img src="./files/rd_expenditures.svg" width="60%"/>
+</center>
+
+Source: OECD and own calculations
+
+---
+### R&D as a share of GDP in different countries
+
+<center>
+<img src="./files/rd_expenditures_gdp_count.svg" width="60%"/>
+</center>
+
+Source: OECD and own calculations
+
+---
+
+class:  center, middle
+name: q1
+
+## Why should governments promote innovation? 
+
+
+<html><div style='float:left'></div><hr color='#EB811B' size=1px width=796px></html>
+
+---
+### Justifications for government involvement in innovation market?
+
+- Knowledge spillovers
+
+ - Other firms can copy and learn from the original research
+ 
+ - "Even with a well-designed intellectual property system, the benefits of new ideas are difficult to monetize in full."
+ 
+ - Marginal social benefit of innovation is greater than marginal private benefit of innovation
+ 
+ - In the market economy, there is too little innovation
+ 
+- Product market spillovers
+
+ - _Business-stealing_ effect
+ 
+ - "Inventor firms may steal market share from other firms without necessarily generating any social benefit."
+ 
+ - In the market economy, there is too much innovation
+
+---
+### Social returns to R&D
+ 
+ 
+> "As a whole, this literature on spillovers has consistently estimated that social returns to R&D are much higher than private returns, which provides a justificatin for government policy."
+
+
+Lucking, Bloom, and Van Reenen (2018) estimate that, in the US 
+
+- social returns to R&D in the United States are about 60 percent
+
+- private returns are about 15 percent
+
+--
+
+### Why not just give property rights to inventors
+
+- Patents have efficiency loss
+
+ - enables firms to have high markups
+ 
+- Other firms can invent around patents
+
+---
+
+### Failures in other markets
+
+<br>
+
+- Financial constraints limit innovation
+
+- Since intellectual property is intangible, it's harder to use it as collateral 
+
+- Equity financing has challenges:
+
+ - You cannot reveal your innovative idea before you actually patent it
+ 
+ - You cannot get funding if you don't explain your idea
+
+---
+
+
+class:  center, middle
+name: q1
+
+## What are the main policy tools to promote innovation? 
+
+
+<html><div style='float:left'></div><hr color='#EB811B' size=1px width=796px></html>
+ 
+---
+### What are the main policy tools to promote innovation? 
+
+1. Tax incentives
+
+2. Patent boxes
+
+3. Human capital supply
+
+4. Intellectual property
+
+5. Product market competition and international trade
+
+6. Targeting small firms
+
+7. Moonshots
+
+---
+
+
+class:  center, middle
+name: q1
+
+## How effective are these tools in promoting innovation?
+
+
+<html><div style='float:left'></div><hr color='#EB811B' size=1px width=796px></html>
+
+---
+### Summary of results
+
+<center>
+<img src="./files/table2.jpg" width="60%"/>
+</center>
+
+
+---
+### Tax incentives
+
+- Elasticity of R&D with respect to tax-price of R&D is about 1.
+
+Concerns:
+
+- relabelling existing expenditure as R&D
+ 
+ - patenting and productivity also increases after tax credits 
+  
+- relocation of R&D different locations to take advantage of tax credits
+
+ - some evidence of relocation
+ 
+ - relocation in itself does not account for all the increase in R&D
+
+<br>
+
+
+> "Overall, the conclusion from this literature is that despite some relocation across place, the aggregate effect of tax credits at the national level both on the volume of R&D and on productivity is substantial."
+---
+### Patent boxes
+
+<br>
+
+**Patent box:** lower tax on revenues linked to patents as opposed to other revenues
+
+- Used in 16 OECD countries as of 2017
+
+- Firms can manipulate stated revenues from patents
+
+- Choi (2019): 'such policies do not have on the real location or the quantity of either R&D or innovation'
+
+<br>
+
+> "In contrast to well-designed research and development tax credits &ndash; for which it is hard to manipulate the stated location of research labs &ndash; patent boxes should be discouraged."
+
+---
+
+### Government research grants
+
+- Harder to target R&D tax credits to maximize social benefit
+
+- Target basic R&D
+
+- Potential crowding out of private R&D
+
+- Or adds in to private R&D spending (crowd-in)
+
+- Jacob and Lefgren (2011): grants produce positive but small effects on research output
+
+- Other researchers: public R&D crowds in private R&D
+
+- Positive impact of academic R&D on corporate patenting
+
+- Government funding of own labs
+
+---
+
+### Human Capital Supply
+
+> "Increasing the quantity of innovative activity requires increasing the supply of workers with human capital needed to carry out research, as emphasized by Romer (2001)" 
+
+- Increase the number of individuals with STEM degrees
+ - Bianchi and Giorcelli (2018): change in enrollment requirements in Italy $\rightarrow$ $\uparrow$ STEM graduates $\rightarrow$ more innovation
+- Migration
+ - Immigrants in the US make up 18 percent of the labor force over age 25
+ - Immigrants constitute 26 percents of STEM workforce
+ - Immigrrants own 28 percent of higher-quality patents
+
+> "Overall, most of the available evidence suggests that increasing the supply of human capital through expanded university programs and/or relaxed immigration rules is likely to be an effective innovation policy."
+
+- Bell et al. (2019): children born into top 1 percent income distribution is 10 times as likely to be an inventor than children born into bottom half.
+ - differences in innate ability explain only a little of the discrepency
+ - differentiated exposure to inventors in childhood
+ - better schooling, greater exposure to inventor role models, mentoring needed
+ 
+---
+
+### Intellectual property
+
+- Patents, copyrights, trademarks, ...
+
+> "A patent grants &ndash; in exchange for disclosure of invention &ndash; a limited-term property right to an inventor, during which time the inventor has the right to exclude others from making, using, or selling their invention."
+
+- Boldrin and Levine (2013) argue that patent system should be abolished
+ - no evidence that patents increase innvation and productivity
+ 
+- Social costs might be greater than social benefits
+
+- Patent trolls
+
+---
+
+### Product market competition and international trade
+
+Theoretical impact of competition on innovation is ambiguous.
+
+- Competition reduces innovation
+ - The reward to innovation is monopoly profits. 
+ 
+ - Competition reduces profits and hence incentives to innovate.
+ 
+ - Also reduces funds to finance innovation.
+ 
+- Competition increases innovation
+
+ - Monopolists have no incentive to innovate
+ 
+ - An entrant has no rents to lose, so it can engage in destructive innovation
+ 
+ - If competition reduces demand for a firm's products, it will be forced to innovate
+
+---
+### Competition
+ 
+- Empirical evidence suggests that competition increases innovation, especially in markets with low level of competition
+
+ - In South America, Asia and Europe, competition from China increased innovation
+
+ - In North America, competition from China reduced innovation in manufacturing
+
+- Increase innovation by increasing the market size
+
+> "Greater competition and trade opennes typically increase innovation."
+

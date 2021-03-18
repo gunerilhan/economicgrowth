@@ -1,7 +1,7 @@
 ---
 title: "Economic Growth "
 # subtitle: ""
-subtitle: "Seminar 5:  Technology Adoption <br><html><div style='float:left'></div><hr color='#EB811B' size=1px width=796px></html>"
+subtitle: "Seminar 5:  Discrimination and Economic Growth <br><html><div style='float:left'></div><hr color='#EB811B' size=1px width=796px></html>"
 author: '&#x130;lhan G&#252;ner'
 date: "University of Kent | EC569" # "`r Sys.Date()`"
 header-includes:
@@ -55,7 +55,7 @@ natural experiment to the research question Cook (2014) answering.
 
 4. What’s the particular misallocation analyzed in Hsieh, Hurst, Jones and Klenow
 (2019)? In this paper, what are the barriers that prevent individuals from working
-in occupations which they have comparative advantage?
+in occupations in which they have comparative advantage?
 
 5. How do Hsieh, Hurst, Jones and Klenow (2019) quantify the economic loss resulting
 from misallocation of talent? Here, you do not need to read and understand the model section as the section is mathematically intensive. Just try to understand the main building blocks of the model by reading the introduction.
@@ -113,6 +113,8 @@ class: middle
 ---
 ### 2. Briefly explain the historical context that provides a natural experiment to the research question Cook (2014) answering.
 
+--
+
 .pull-left[
 
 - Dramatic increase of race-related violence in the United States between 1870 and 1940
@@ -134,10 +136,17 @@ class: middle
 ---
 ### 2. How does Cook (2014) show that violence leads to reductions to patenting activity among the victims of violence? 
 
+--
+
+<br>
+
 > 'These trends provide a natural experiment in testing the extent to which a schock to personal security and property rights can affect individual creativity and the production of economically intangible capital.'
 
+- Using regression analysis (difference in difference) that relies on variation over time and across states in exposure to violence.
 ---
 ### 3. What are the main results of Cook (2014)? Briefly explain.
+
+--
 
 .pull-left[
 <center>
@@ -151,9 +160,12 @@ class: middle
 </center>
 ]
 
-
+- 'Violence accounts for more than 1,100 missing patents compared to 726 actual patents among African American inventors over this period.'
 ---
 ### Results, cont'd
+.left-column[
+'Extrajudicial kilings and loss of personal security depressed patent activity among blacks by more than 15% annually between 1882 and 1940.'
+]
 
 .right-column[
 <center>
@@ -187,36 +199,66 @@ What are the aggregate effects of the changing allocation of talent from 1960 to
 ---
 #### What’s the particular misallocation analyzed in Hsieh, Hurst, Jones and Klenow (2019)?
 
+--
+
 - Misallocation of talent across occupations
 
 --
 
-#### In this paper, what are the barriers that prevent individuals from working in occupations which they have comparative advantage?
+#### In this paper, what are the barriers that prevent individuals from working in occupations in which they have comparative advantage?
+
+--
 
 - Discrimination in the labor market
 
  - Highly talented women and black men are unable to work in occupations that suits their talents
+ 
+ - Reduction in this friction should lead to increased wages for a given cohort
+
+--
 
 - Barriers to forming human capital
 
+ - Reductions in this friction will show up across cohorts
+
+
 > 'parental and teacher discrimination in favor of boys in the development of certain skills, historical restrictions on the admission of women to colleges or training programs, differences in school quality between black and white neighborhoods, and differences in parental wealth and schooling that alter the cost of investing in their children's human capital'
 
-- Social norms against women and black men working on some occupations
+--
+
+- Personal preferences or social norms against women and black men working on some occupations
+
+ - If women did not like certain occupations, they should have compensated more for working in those occupations. 
 
 ---
 ### Wage gaps and the relative likelihood of working in certain occupations 
+.pull-left[
 <center>
-<img src="./files/figure8.jpg" width="70%"/>
+<img src="./files/figure5.jpg" width="100%"/>
 </center>
+]
 
+.pull-right[
+<center>
+<img src="./files/figure8.jpg" width="100%"/>
+</center>
+]
+
+<br>
+
+- Mostly cohort effects, suggests human capital frictions are more important.
 ---
 ### How do Hsieh, Hurst, Jones and Klenow (2019) quantify the economic loss resulting from misallocation of talent? 
 
 #### Here, you do not need to read and understand the model section as the section is mathematically intensive. Just try to understand the main building blocks of the model by reading the introduction.
 
+--
+
+<br>
+
 - They build a model that incorporates 
 
- - labor market frictions: wedge between occupation-speficif wages and marginal products
+ - labor market frictions: wedge between occupation-specific wages and marginal products
  
  - human capital frictions: extra cost to acquire human capital for certain groups
  
@@ -225,3 +267,28 @@ What are the aggregate effects of the changing allocation of talent from 1960 to
 
 ---
 ### Clearly state a few quantitative results of Hsieh, Hurst, Jones and Klenow (2019). Explain the results.
+
+--
+
+.pull-left[
+<center>
+<img src="./files/figure7.jpg" width="90%"/>
+</center>
+]
+
+.pull-right[
+<center>
+<img src="./files/results.png" width="90%"/>
+</center>
+]
+
+- 40% of GDP per capita growth is due to declining barriers to women and blacks.
+
+ - Half from improved allocation of talent half from increased labor force participation of women.
+ 
+ - 32% from declining barriers to human capital accumulation
+ 
+ - 8% from declining labor market discrimination
+ 
+- Removing barriers would increase the GDP by additional 10 percent.
+

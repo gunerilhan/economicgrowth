@@ -1,19 +1,24 @@
 ---
-title: "EC569 Economic Growth <br>   The Role of Technology in Growth <br> Lecture 7"
-subtitle: "<html><div style='float:left'></div><hr color='##EB811B' size=1px width=796px></html>"
+title: "Economic Growth "
+# subtitle: ""
+subtitle: "Lecture 7: The Role of Technology in Growth <br><html><div style='float:left'></div><hr color='#EB811B' size=1px width=796px></html>"
 author: '&#x130;lhan G&#252;ner'
-date: "`r Sys.Date()`"
+date: "University of Kent | EC569" # "`r Sys.Date()`"
 header-includes:
    - \usepackage{tikz}
 output:
   xaringan::moon_reader:
-    css: [default, rladies, metropolis-fonts] 
+    css: xaringan-themer.css
     lib_dir: libs
     nature:
-      ratio: '16:9'
+      ratio : '16:9'
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
+      slideNumberFormat: "%current%"
+
+
+
 ---
 ```{r setup, include=FALSE}
 options(htmltools.dir.version = FALSE)
@@ -25,6 +30,20 @@ opts_chunk$set(
   cache=T##, echo=F, warning=F, message=F
   )
 ```
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_mono_accent(
+  base_color = '#000000',
+  title_slide_text_color = '#000000',
+  title_slide_background_color = '#FFFFFF',
+  header_font_google = google_font("Josefin Sans"),
+  text_font_google   = google_font("Montserrat", "300", "300i"),
+  code_font_google   = google_font("Fira Mono"),
+
+)
+```
+
+
 
 ### The nature of technological progress
 
@@ -67,7 +86,7 @@ Extended Solow model (or Solow model with technological progress):
 
 Endogenous growth models:
 
-- Technological progress as result of efforts by
+- Technological progress as a result of efforts by
 
  - researchers
 
@@ -82,9 +101,17 @@ Endogenous growth models:
  - blueprints
 
 ---
+class: center, middle
+name: ideas
+
+## The economics of ideas
+
+<html><div style='float:left'></div><hr color='#EB811B' size=1px width=796px></html>
+
+---
 ### Ideas vs objects
 
-
+.pull-left[
 - Technology is **non-rival** in its use
 
  - it can be used by many at the same time
@@ -93,25 +120,30 @@ Endogenous growth models:
 
  -  it is transferable across firms and countries
 
---
 
-- technology is (often) **non-excludable** (per se)
 
- - owner of the technology cannot prevent others from using it without permission
+- technology is only **partially excludable**
+
+ - owner of the technology cannot fully prevent others from using it without permission
 
  - reduces incentive for creating technology
 
- - cutting edge technology is usually protected by patents
+ - cutting edge technology is usually protected by patents <br> - makes technology somewhat excludable. <br> - could be reverse enginereed
+]
 
---
+.pull-right[
+- Standard goods are rivalrous
 
-- Standard goods are rival
+ - "the use of the good by one person precludes its use by another" - Jones and Vollrath (2013)
 
  - a machine can be used in only one location at a time
 
 - Goods are excludable:
 
  - machines stored in a factory protected by professional guards
+
+]
+
 
 ---
 class:center
@@ -127,14 +159,16 @@ $$\Downarrow$$
 Non-rivalry
  $$\Downarrow$$
  
- Increasing returns to scale and Imperfect competition
+ Increasing returns to scale 
+  $$\Downarrow$$
+ Necessitates imperfect competition
 ---
 ### Ideas and increasing returns to scale
 
 
 - Standard replication argument
 
- - To double the output of factory, say bicycle factory, you can replicate the same factory across the street
+ - To double output of a factory, say bicycle factory, you can replicate the same factory across the street
 
  - Therefore, constant returns to scale
 
@@ -148,40 +182,63 @@ Non-rivalry
 
 - Output per person depends on the total stock of knowledge, not knowledge per person.
 
-- One more machine (physical capital), one worker more productive
+ - One more machine (physical capital), one worker more productive
 
-- One more idea, any number of workers more productive
+ - One more idea, any number of workers more productive
+
 ---
 ### Ideas and imperfect competition
 
-- Creating new ideas (technologies) requires investment
+.pull-left[
 
---
+- Creating new ideas (technologies) requires investment
 
 - Ideas have **high fixed costs**, a lot of effort to create a drug
 
 - Ideas have **low (zero) marginal costs**.
 
---
-
 - Fixed cost, low marginal cost necessitate imperfect competition
-
-
---
 
 - Incentive to innovate: profits 
 
 - With perfect competition, firms will not invest in R&D, as they will have negative profits.
 
---
 
-- involves externalities
+]
 
- - non-exclusiveness leads to spillovers
+.pull-right[
+
+<center>
+<img src="./files/slide4.png" width="70%"/>
+</center>
+
+<center>
+<img src="./files/slide5.png" width="60%"/>
+</center>
+
+Graphics from: Introduction to Economic Growth, 3rd edition
+]
+
+---
+### Ideas and externalities
+
+<br>
+
+- Idea creation depends on 
+
+ - the magnitude of private benefits (discounted sum of future profits) 
+ 
+ - initial invention cost
+
+- Idea creation generates externalities
+
+ - partial excludability leads to spillovers
 
  - later inventors and researchers benefit from the insights of those who came before.
 
  - market investment in ideas may not be socially optimum
+ 
+- In an environment with positive externalities, markets tend to generate under-investment.
 
 ---
 ### Readings
@@ -193,12 +250,13 @@ Non-rivalry
 
 - You should always read the relevant chapters of the course textbooks.
 
-- Chapter 4.2 (The Economics of Ideas) of Jones and Vollrath (2013)
+ 
+- Read [Chapter 4 (The Economics of Ideas) of Jones and Vollrath (2013)](https://moodle.kent.ac.uk/2020/mod/cla/view.php?id=328010), especially chapter 4.2
 
-- Chad Jones, [New ideas about new ideas: Paul Romer, Nobel laureate](https://voxeu.org/article/new-ideas-about-new-ideas-paul-romer-nobel-laureate), VOX, 12 October 2018 
+- Read Chad Jones, [New ideas about new ideas: Paul Romer, Nobel laureate](https://voxeu.org/article/new-ideas-about-new-ideas-paul-romer-nobel-laureate), VOX, 12 October 2018 
 
 ---
-### Implications of Investment in Ideas
+### Implications of investment in ideas
 
 <br>
 
@@ -208,11 +266,19 @@ Non-rivalry
 
 - Set aside, temporarily, the decision of how much to invest in technology
 
-- Focus on implications of technology investment on
+- Focus on implications of investment in techonology on
 
  - the output per worker level
  
  - growth rate of output per worker
+---
+class: center, middle
+name: technology
+
+##  One-country model of technology creation <br>and growth
+
+<html><div style='float:left'></div><hr color='#EB811B' size=1px width=796px></html>
+
 
 ---
 ### One-country model of technology creation and growth
@@ -310,9 +376,28 @@ $$ \hat{y} = \hat{A}= \frac{\gamma_A}{\mu}L$$
  - the closed economy setting could be false 
  
  - international technology transfer/spillover
+---
+class: center, middle
+name: technology
+
+##  Two-country model of technology creation <br>and growth
+
+<html><div style='float:left'></div><hr color='#EB811B' size=1px width=796px></html>
 
 ---
+### Motivation
 
+- Understand the role of international technology spillovers
+
+- Potential justification for partial convergence
+
+<center>
+<img src="./files/rel_gdp_worker.svg" width="60%"/>
+
+</center>
+
+.center[Data source: [Penn World Tables, version 10.0](https://www.rug.nl/ggdc/productivity/pwt/)]
+---
 ### Two-country model of technology creation and growth
 
 - Draws on Barro and Sala-i Martin (1997)
@@ -462,6 +547,155 @@ Graphics from: Weil (2013)
  - Similar to increase in investment rate in the Solow model
 
 - In contrast, an increase in $\gamma_{A,1}$ leads to permanent changes in the growth rates
+
+---
+### Convergence
+
+.pull-left[
+- If a low income country increases its resources allocated to R&D
+
+ - (or put more efforts to imitate the state-of-the-art technology)
+ 
+- then, the country will experince rapid growth in the short-term 
+
+- and the income gap between the country and the technology leader will narrow down.
+
+- But, the gap will not disappear completely.
+
+- In the long-run technology leader and the follower country will grow at the same rate.
+
+]
+
+.pull-right[
+
+<br>
+
+
+<center>
+<img src="./files/rel_gdp_worker.svg" width="100%"/>
+
+</center>
+
+.center[Data source: [Penn World Tables, version 10.0](https://www.rug.nl/ggdc/productivity/pwt/)]
+
+]
+
+---
+class: center, middle
+name: technology
+
+## Technology production function
+
+<html><div style='float:left'></div><hr color='#EB811B' size=1px width=796px></html>
+
+---
+### Technology production function
+
+.pull-left[
+<br>
+
+
+- So far, we assumed technology growth rate is independent of current technology level:
+$$ \hat{A} = \frac{L_A}{\mu} $$
+
+
+- Considering the increse in the research efforts, growth should have skyrocketed. 
+]
+
+.pull-right[
+<center>
+<img src="./files/oecd_fte_researchers.svg" width=100%"/>
+</center>
+
+Data source: OECD
+]
+
+---
+### Cumulative nature of technology development
+
+Instead of assuming $\hat{A} = \frac{L_A}{\mu}$ assume $\hat{A}\equiv \frac{\dot{A}}{A}= \frac{L_A^\lambda}{\mu}A^{\phi - 1}$, then 
+
+$$ \dot{A} =  \frac{L_A^\lambda}{\mu}A^{\phi} $$
+
+
+- If $\phi > 0:$ **standing on shoulders**
+
+ Isaac Newton: 
+ > If I have seen farther than others, it is because I have stood on _the shoulders of giants_.
+
+ - Larger base of knowledge
+
+ - Larger set of tools
+
+- If $\phi < 0:$ **fishing out**
+
+ - Fishing out effect: easiest discoveries have already been made
+
+ - More is known today, more effort for a researcher to learn everything required
+
+---
+
+### Interesting podcast/video clips related to our lecture
+
+
+.pull-left[
+> "Emily Harrington is the first woman to free-climb the Golden Gate route up El Capitan, a 3,000-foot-high monolith in Yosemite National Park, in under 24 hours." - [NY Times](https://www.nytimes.com/2020/11/09/sports/emily-harrington-free-climb-yosemite.html)
+
+#### Solo climbing to El Capitan and knowledge spillovers
+<iframe src="https://www.npr.org/player/embed/811280651/811295498" width="100%" height="290" frameborder="0" scrolling="no" title="NPR embedded audio player"></iframe>
+]
+
+.pull-right[
+<center>
+<iframe src="./files/olympics.html" width="100%" height="460" frameborder="0" scrolling="no" title="NPR embedded audio player"></iframe>
+</center>
+]
+
+---
+.pull-left[
+### Athletes
+
+
+Obviously, an athlete's achievements are results of 
+
+- their hard work,
+
+- their talent,
+
+- the coaching they receive, etc.
+
+
+Their success might partially stem from 
+
+- their learning from previous generation of athletes and from their competitors.
+
+]
+
+
+
+
+.pull-right[
+<center>
+<iframe src="./files/biles.html" width="70%" height="600" frameborder="0" scrolling="no" title="NPR embedded audio player"></iframe>
+</center>
+]
+
+---
+### Stepping on toes effect
+
+<br>
+
+<br>
+
+
+- If $\lambda < 1$ 
+
+- Efforts of most of the researchers will be wasted if many are working at the same project
+
+ - Charles Darwin came up earlier with _natural selection_ than Alfred Wallace
+
+ - Two teams completed the sequencing of human genome simultaneously
+
 
 
 ---

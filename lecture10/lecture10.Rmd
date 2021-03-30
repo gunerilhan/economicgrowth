@@ -51,13 +51,15 @@ style_mono_accent(
 
 <br>
 
-1. What are the causes of rising economic integration in the 20th century?
+1. Some basic statistics about globalization
 
-2. How does being open to world economy affect a country's economic growth?
+2. What are the causes of rising economic integration in the 20th century?
 
-3. What are the particular channels through which openness affect growth?
+3. Does being open to world economy affect a country's economic growth?
 
-4. Why are some people opposed to openness?
+4. What are the particular channels through which openness affects growth?
+
+5. Why are some people opposed to openness?
 
 
 ---
@@ -68,9 +70,9 @@ style_mono_accent(
 
 - **Autarky:** a country does not interact economically at all with the rest of the world
 
-- Openness
+- Openness in the form of 
 
- - the exchange of final goods and services
+ - exchange of final goods and services
 
  - flow of factors of production across borders
 
@@ -81,7 +83,7 @@ style_mono_accent(
  - Deviations from the **law of one price,** <br> - if two countries trade freely with each other, the same good will sell for the same price in both markets
 
 ---
-### Growth of the World trade
+### Growth of the world trade
 
 <iframe src="https://ourworldindata.org/grapher/merchandise-exports-gdp-cepii?time=1827..2014&country=OWID_WRL" style="width: 100%; height: 500px; border: 0px none;"></iframe>
 
@@ -104,13 +106,15 @@ style_mono_accent(
   &ndash; British were the "bankers for the world" <br>
   &ndash; Britain financed half of the total sum invested across country borders
  
-
  - retreat from global integration: WWI - 1990
-
+ 
  - emerging market investment boom: 1990 -
 
 
 ]
+
+--
+
 .pull-right[
  
 - Labor mobility
@@ -121,10 +125,21 @@ style_mono_accent(
  - Reduced importance of immigration after WWII <br>
  &ndash; end of colonization <br>
  &ndash; the rise of nationalism: 
-
-- In 1910, 14.7% of the U.S. population was foreign born
-- In 2010, 12.4% of the U.S. population was foreign born
+ 
+ - In 1910, 14.7% of the U.S. population was foreign born
+ 
+ - In 2010, 12.4% of the U.S. population was foreign born
 ]
+
+---
+
+class: center, middle
+name: causes
+
+## Causes of globalization
+
+<html><div style='float:left'></div><hr color='#EB811B' size=1px width=796px></html>
+
 
 ---
 
@@ -189,12 +204,12 @@ Graph from [ourworldindata.org](https://ourworldindata.org/trade-and-globalizati
 class: center, middle
 name: openness
 
-## The effect of openness on economic growth
+## Does being open to world economy affect a country's economic growth?
 
 <html><div style='float:left'></div><hr color='#EB811B' size=1px width=796px></html>
 
 ---
-### How does being open to world economy affect a country's economic growth?
+### Does being open to world economy affect a country's economic growth?
 
 .pull-left[
 
@@ -245,15 +260,15 @@ Graphic from: Economic Growth (David Weil, 3e)
 Graphics from: Economic Growth (David Weil, 3e) 
 
 ---
-### How changes in openness affect growth
+### Does changes in openness of a country affect its growth?
 
 <br>
 
 - Trade liberalization led to rapid growth in
 
- - Japan (1858) 65% increase in real income over two decades
+ - Japan (1858): 65% increase in real income over two decades
 
- - South Korea (1964-1965), income doubled in next 11 years
+ - South Korea (1964-1965): income doubled in next 11 years
 
  - Rapid growth in Uganda and Vietnam in 1990s, after their integration into the world economy.
 
@@ -281,14 +296,24 @@ Graphics from: Economic Growth (David Weil, 3e)
  
  - Air freight led to increase in trade volume
 
- - Led to increase in income (if trade cost decreased)
+ - Rising trade led to rising income, falling trade led to falling income.
+
+---
+
+class: center, middle
+name: channels
+
+## The channels through which openness affects economic growth
+
+<html><div style='float:left'></div><hr color='#EB811B' size=1px width=796px></html>
+
 
 ---
 ### Openness and growth
 
 <br>
 
-- What are the particular channels by which being open to the outside world affect's a country's level of income per capita?
+- What are the particular channels by which being open to the outside world affects a country's level of income per capita?
 
  - through factor accumulation
 
@@ -320,7 +345,10 @@ Physical capital flows across national borders through
 - In the Solow model, the economy is assumed to be closed
 
  - Hence, saving rate = investment rate
- 
+
+
+--
+
 - In an open economy, saving rate might differ from the investment rate
 
  - with a simplistic theory, we expect that saving rate is uncorrelated with investment rate
@@ -330,6 +358,8 @@ Physical capital flows across national borders through
  - Gross Domestic Product (GDP) will not be higher for high saving rate countries
  
  - Gross National Product (GNP) will be higher for high saving rate countries
+
+--
 
 - Openning to free capital flows 
 
@@ -463,7 +493,7 @@ Graphic from: Economic Growth (David Weil, 3e)
 
 - Owners of factor of production (openness leads to lower returns if capital was scarce before openness)
 
-- Higher return to low educated people without trade
+- Higher return to low educated people without trade in advanced economies
 
 ---
 ### Summary
